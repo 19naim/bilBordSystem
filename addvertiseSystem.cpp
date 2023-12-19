@@ -59,8 +59,8 @@ public:
 int main() {
     // Create customers and their ads
     Customer hederligeHarrys("Hederlige Harrys Cars", 5000);
-    hederligeHarrys.addAdvertisement(Advertisement("Köp bil hos Harry", false));
-    hederligeHarrys.addAdvertisement(Advertisement("En god bilaffär (för Harry!)", false));
+    hederligeHarrys.addAdvertisement(Advertisement("Kop bil hos Harry", false));
+    hederligeHarrys.addAdvertisement(Advertisement("En god bilaffar (for Harry!)", false));
     hederligeHarrys.addAdvertisement(Advertisement("Hederlige Harrys Bilar", true));
 
     // ... (similarly create other customers and their ads)
